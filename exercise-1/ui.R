@@ -1,7 +1,7 @@
 library(shiny)
 library(plotly)
 
-data <- read.csv("https://raw.githubusercontent.com/plotly/datasets/master/2011_us_ag_exports.csv")
+data <- read.csv('data/2011_us_ag_exports.csv')
 
 shinyUI(fluidPage(
   # Create a title
